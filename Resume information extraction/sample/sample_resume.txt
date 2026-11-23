@@ -1,0 +1,38 @@
+Aarav Mehta
+Bengaluru, India
+aarav.mehta@email.com | +91 98765 43210
+linkedin.com/in/aaravmehta | github.com/aaravmehta
+https://aaravmehta.dev
+
+SUMMARY
+NLP engineer who builds information extraction pipelines with spaCy, regex rules, and transformer models. Interested in resume parsing, document understanding, and production Flask APIs.
+
+SKILLS
+Python, spaCy, NLTK, Named Entity Recognition, Regex, Flask, FastAPI, SQL, PostgreSQL, Docker, Git, AWS, Machine Learning, Pandas, scikit-learn, React
+
+EXPERIENCE
+NLP Engineer, Horizon Analytics
+Jan 2023 - Present
+- Designed a spaCy + rule-based resume parser that extracts contact, skills, education, and work history.
+- Combined EntityRuler, PhraseMatcher, and section heading rules to raise field-level F1 on messy PDFs.
+- Deployed a Flask service that returns structured JSON for recruiters.
+
+Machine Learning Intern, Pixel Labs
+Jun 2021 - Dec 2022
+- Built text classification models for ticket routing using scikit-learn and BERT embeddings.
+- Automated PDF text extraction with pdfplumber and reduced manual data entry by 40%.
+
+EDUCATION
+B.Tech in Computer Science, National Institute of Technology Karnataka
+2018 - 2022
+
+PROJECTS
+Resume Information Extraction
+- End-to-end NLP pipeline: upload, text extraction, field identification, structured display.
+
+CERTIFICATIONS
+AWS Certified Cloud Practitioner
+DeepLearning.AI Natural Language Processing Specialization
+
+LANGUAGES
+English, Hindi
