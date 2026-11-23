@@ -29,7 +29,7 @@ python app.py
 
 Or double-click `run.bat`.
 
-Open [http://127.0.0.1:5000](http://127.0.0.1:5000). Use **Try sample resume** or upload your own file.
+Open local host. Use **Try sample resume** or upload your own file.
 
 Scanned/image-only PDFs do not contain extractable text and currently need to be converted to a searchable PDF or DOCX before upload.
 
