@@ -4,26 +4,14 @@ Resume Information Extraction is a Flask-based web application that uploads PDF,
 
 The application provides a simple browser interface, JSON-formatted extraction results, and a downloadable output. It is designed for resume screening, applicant tracking, and learning natural language processing workflows.
 
-# Key Features
-
-Supports PDF, DOCX, and TXT resumes
-Extracts text using pdfplumber and python-docx
-Uses spaCy and a rule-based NLP pipeline
-Detects candidate name, email, phone, location, and social profiles
-Extracts skills, education, experience, projects, and certifications
-Displays structured information in a responsive web interface
-Provides extraction results as downloadable JSON
-Includes a built-in sample resume
-Automatically removes uploaded files after processing
-
 # Tech Stack
 
-Python
-Flask
-spaCy
-pdfplumber
-python-docx
-HTML, CSS, and JavaScript
+1. **Python**
+2. **Flask**
+3. **spaCy**
+4. **pdfplumber**
+5. **python-docx**
+6. **HTML, CSS, and JavaScript**
 
 # Project Structure
 
