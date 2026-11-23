@@ -4,6 +4,57 @@ Resume Information Extraction is a Flask-based web application that uploads PDF,
 
 The application provides a simple browser interface, JSON-formatted extraction results, and a downloadable output. It is designed for resume screening, applicant tracking, and learning natural language processing workflows.
 
+# Key Features
+
+Supports PDF, DOCX, and TXT resumes
+Extracts text using pdfplumber and python-docx
+Uses spaCy and a rule-based NLP pipeline
+Detects candidate name, email, phone, location, and social profiles
+Extracts skills, education, experience, projects, and certifications
+Displays structured information in a responsive web interface
+Provides extraction results as downloadable JSON
+Includes a built-in sample resume
+Automatically removes uploaded files after processing
+
+# Tech Stack
+
+Python
+Flask
+spaCy
+pdfplumber
+python-docx
+HTML, CSS, and JavaScript
+
+# Project Structure
+
+Resume information extraction/
+├── app.py                  # Flask application and API routes
+├── requirements.txt        # Python dependencies
+├── run.bat                 # Windows setup and launch script
+├── README.md               # Project documentation
+├── .gitignore              # Git ignored files
+│
+├── nlp/
+│   ├── __init__.py         # NLP package initialization
+│   ├── text_extract.py     # PDF, DOCX, and TXT text extraction
+│   ├── engine.py           # spaCy, EntityRuler, and PhraseMatcher setup
+│   ├── rules.py            # Regex and section-detection rules
+│   └── extractor.py        # Main resume extraction pipeline
+│
+├── templates/
+│   └── index.html          # Browser interface template
+│
+├── static/
+│   ├── css/
+│   │   └── style.css       # Application styling
+│   └── js/
+│       └── app.js          # Upload, API, rendering, and download logic
+│
+├── sample/
+│   └── sample_resume.txt   # Built-in example resume
+│
+└── uploads/                # Temporary uploaded resume storage
+
 ## Pipeline
 
 1. **Upload resume** — searchable PDF, DOCX, or TXT (`.doc` is not supported)
@@ -11,6 +62,8 @@ The application provides a simple browser interface, JSON-formatted extraction r
 3. **Identify important fields** — spaCy NER, EntityRuler, PhraseMatcher, regex
 4. **Organize extraction** — section heading rules group education, experience, skills, and more
 5. **Display structured output** — web UI plus downloadable JSON
+
+
 
 ## Fields
 
