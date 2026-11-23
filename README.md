@@ -15,6 +15,7 @@ The application provides a simple browser interface, JSON-formatted extraction r
 
 # Project Structure
 
+```blash
 Resume information extraction/
 ├── app.py                  # Flask application and API routes
 ├── requirements.txt        # Python dependencies
@@ -42,6 +43,7 @@ Resume information extraction/
 │   └── sample_resume.txt   # Built-in example resume
 │
 └── uploads/                # Temporary uploaded resume storage
+```
 
 ## Pipeline
 
